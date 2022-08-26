@@ -1,0 +1,31 @@
+#container {
+    width: 80vw;
+    height: 80vh;
+}
+
+span.block{
+    position: absolute;
+}
+
+.block, #Player{
+    background-color: black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.block:hover{
+    width: 34px;
+    height: 34px;
+    border: 3px #aaa dotted;
+}
+
+span#Player{
+    background-color: #ffffff00;
+    transition: .1s;
+}
+
+#Player img{
+    filter: drop-shadow(0px 5px 2px black);
+    max-width: 100%;
+    object-fit: fill;
+}
